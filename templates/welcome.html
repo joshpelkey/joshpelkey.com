@@ -1,0 +1,458 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Personal site for Josh Pelkey">
+    <meta name="author" content="Josh Pelkey">
+
+    <title>Josh Pelkey</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/devicons/css/devicons.min.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/simple-line-icons/css/simple-line-icons.css' %}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'assets/css/resume.css' %}" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">joshpelkey.com</span>
+        <span class="d-none d-lg-block">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/images/selfie.jpg' %}" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#pubsetc">Patents, Etc</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#wallets">Wallets</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Josh
+            <span class="text-primary">Pelkey</span>
+          </h1>
+          <div class="subheading mb-5">Mount Pleasant, South Carolina ·
+            <a href="https://t.me/joshpelkey" target="_blank">telegram</a> ·
+            joshpelkey@gmail.com
+          </div>
+          <p class="mb-5">I am a father and husband, and I love to learn. I grew
+          up in Charleston, South Carolina and attended Clemson and Georgia Tech, studying
+          computer engineering. I currently work as a product manager at VMware,
+          focused on enterprise mobility and end-user computing.</p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="http://www.linkedin.com/pub/josh-pelkey/22/501/ba8">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/joshpelkey">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="http://www.facebook.com/joshpelkey">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="http://twitter.com/joshpelkey">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Group Product Line Manager</h3>
+              <div class="subheading mb-3">VMware</div>
+              <p>Currently oversee a team of product managers within VMware's End User
+              Computing business. Our team is committed to improving our customers' IT
+              operations through
+              <a href="https://www.vmware.com/products/workspace-one.html">
+                  Workspace ONE
+              </a>
+               and a world class admin experience.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2017 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Senior Product Manager</h3>
+              <div class="subheading mb-3">VMware AirWatch</div>
+              <p>Product owner over the AirWatch Admin
+              Console, helping our customer's IT admins transform their business
+              through enterprise mobility. Worked closely with our customers and internally with
+              UX/dev to streamline our admin experience.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">April 2016 - January 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Product Manager</h3>
+              <div class="subheading mb-3">AirWatch</div>
+              <p>Owned several modules within AirWatch's largest product, the
+              AirWatch Admin Console. Managed a significant UI/UX overhaul from a legacy UI
+              framework, including a revamped information architecture and
+              streamlined admin workflows.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2012 - April 2016</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Technical Consultant</h3>
+              <div class="subheading mb-3">AirWatch</div>
+              <p>Supported our large enterprise mobility customers – managing
+              hundreds of thousands of mobile devices. Served as lead consultant for
+              several of AirWatch’s early ‘Top 10’ customers.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2011 - May 2012</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Georgia Institute of Technology</h3>
+              <div class="subheading">Master of Science</div>
+              <div>Electrical and Computer Engineering</div>
+              <div class="notes">
+                  <ul class="fa-ul ml-5 mt-2">
+                    <li>
+                        <i class="fa-li fa fa-star text-warning"></i>
+                        Graduate research assistant under
+                        <a href="https://www.ece.gatech.edu/faculty-staff-directory/george-f-riley">
+                            Dr. George Riley
+                        </a>
+                        . My research interests included the
+                        areas of computer networks and wireless communication.
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-star text-warning"></i>
+                        Represented <a href="https://www.nsnam.org/">ns-3</a>
+                        project as a mentor at
+                        <a href="https://summerofcode.withgoogle.com/">
+                            Google Summer of Code
+                        </a>
+                         2010.
+                    </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2008 - May 2010</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Clemson University</h3>
+              <div class="subheading">Bachelor of Science</div>
+              <div>Computer Engineering</div>
+              <div class="notes">
+                  <ul class="fa-ul ml-5 mt-2">
+                    <li>
+                        <i class="fa-li fa fa-star text-warning"></i>
+                        Samuel B. Earle Award; Given to the most outstanding
+                        senior in the College of Engineering and Science at
+                        Clemson University.
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-star text-warning"></i>
+                        W.M. Riggs Award; Given to the most outstanding senior
+                        in the department of Electrical and Computer
+                        Engineering at Clemson University.
+                    </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2003 - May 2008</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="pubsetc">
+        <div class="my-auto">
+          <h2 class="mb-5">Patents, Publications, Certifications</h2>
+
+          <div class="pubsetc">
+              <h3 class="mb-0">Patents</h3>
+              <ul class="fa-ul mb-0">
+                <li>
+                  <div class="pub-tile">
+                      <a href="https://patents.google.com/patent/US9584964">
+                         Enforcement of proximity based policies
+                      </a>
+                  </div>
+                  <div class="pub-desc">United States US9584964 B2</div>
+                  <div class="pub-more">Issued February 2017</div>
+                </li>
+              </ul>
+          </div>
+
+          <div class="pubsetc">
+              <h3 class="mb-0">Publications</h3>
+              <ul class="fa-ul mb-0">
+                <li>
+                  <div class="pub-tile">
+                      <a href="https://www.ijee.ie/contents/c340318.html">
+                         Assessment of Conceptual Knowledge using a
+                         Component-Based Concept Map Scoring Program
+                      </a>
+                  </div>
+                  <div class="pub-desc">International Journal of Engineering Education</div>
+                  <div class="pub-more">March 2018</div>
+                </li>
+                <li>
+                  <div class="pub-tile">
+                      <a href="https://www.researchgate.net/publication/310626990_Concept_Maps_as_Teaching_Learning_and_Research_Tools">
+                          Concept Maps as Teaching, Learning, and Research Tools
+                      </a>
+                  </div>
+                  <div class="pub-desc">Conference: 8th Annual First Year
+                      Engineering Experience</div>
+                  <div class="pub-more">August 2016</div>
+                </li>
+                <li>
+                  <div class="pub-tile">
+                      <a href="https://www.researchgate.net/publication/301745898_Assessing_Impacts_of_a_Learning-Cycle-Based_Module_on_Students%27_Conceptual_Sustainability_Knowledge_using_Concept_Maps_and_Surveys">
+                      Assessing Impacts of a Learning-Cycle-Based Module on
+                      Students’ Conceptual Sustainability Knowledge using
+                      Concept Maps and Surveys
+                      </a>
+                  </div>
+                  <div class="pub-desc">Journal of Cleaner Production</div>
+                  <div class="pub-more">April 2016</div>
+                </li>
+                <li>
+                  <div class="pub-tile">
+                      <a href="https://www.researchgate.net/publication/288933546_Assessing_Conceptual_Knowledge_Using_Three_Concept_Map_Scoring_Methods">
+                          Assessing Conceptual Knowledge Using Three Concept Map Scoring Methods
+                      </a>
+                  </div>
+                  <div class="pub-desc">Journal of Engineering Education</div>
+                  <div class="pub-more">December 2015</div>
+                </li>
+                <li>
+                  <div class="pub-tile">
+                      <a href="https://www.researchgate.net/publication/287876311_Use_of_concept_maps_to_assess_student_sustainability_knowledge">
+                          Use of concept maps to assess student sustainability
+                          knowledge
+                      </a>
+                  </div>
+                  <div class="pub-desc">Conference: ASEE Annual Conference and
+                      Exposition</div>
+                  <div class="pub-more">January 2014</div>
+                </li>
+                <li>
+                  <div class="pub-tile">
+                      <a href="https://www.researchgate.net/publication/287876531_Exploring_student_sustainability_knowledge_using_the_structure_of_observed_learning_outcomes_SOLO_taxonomy">
+                      Exploring student sustainability knowledge using the
+                      structure of observed learning outcomes (SOLO) taxonomy
+                      </a>
+                  </div>
+                  <div class="pub-desc">Conference: ASEE Annual Conference and
+                      Exposition</div>
+                  <div class="pub-more">January 2014</div>
+                </li>
+                <li>
+                  <div class="pub-tile">
+                      <a href="http://griley.ece.gatech.edu/riley/ece6110/handouts/DistNS3.pdf">
+                         Distributed Simulation with MPI in ns-3
+                      </a>
+                  </div>
+                  <div class="pub-desc">Proceedings of the 4th International
+                      ICST Conference on Simulation Tools and Techniques</div>
+                  <div class="pub-more">March 2011</div>
+                </li>
+              </ul>
+          </div>
+
+          <div class="pubsetc">
+              <h3 class="mb-0">Certifications</h3>
+              <ul class="fa-ul mb-0">
+                <li>
+                  <div class="pub-tile">
+                      <a href="https://www.scrumalliance.org/get-certified/practitioners/cspo-certification">
+                          Certified Scrum Product Owner
+                      </a>
+                  </div>
+                  <div class="pub-desc">Scrum Alliance</div>
+                  <div class="pub-more">Oct 2015 - Present</div>
+                </li>
+                <li>
+                  <div class="pub-tile">
+                      <a href="https://www.pragmaticmarketing.com/certification">
+                        PMC-III
+                      </a>
+                  </div>
+                  <div class="pub-desc">Pragmatic Marketing</div>
+                  <div class="pub-more">Aug 2016 - Present</div>
+                </li>
+              </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p></p>
+          <p class="mb-3">I like to do things:</p>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-music text-warning"></i>
+                music (listening, creating, recording)
+            </li>
+            <li>
+              <i class="fa-li fa fa-gamepad text-warning"></i>
+                games (video, card, board)
+            </li>
+            <li>
+              <i class="fa-li fa fa-beer text-warning"></i>
+                beer (craft, homebrewing)
+            </li>
+            <li>
+              <i class="fa-li fa fa-keyboard-o text-warning"></i>
+                open-source software (using, promoting, contributing)
+            </li>
+            <li>
+              <i class="fa-li fa fa-star text-warning"></i>
+                reading, fishing, golfing, and all kinds of other stuff too
+            </li>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="wallets">
+        <div class="my-auto">
+          <h2 class="mb-5">Wallets</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-money text-warning"></i>
+                <div class="wallet-id">ltc: </div>
+                <div class="wallet-address">LVNWdioa425SZNR35zjyigRiSKkdSKgp3M</div>
+            </li>
+            <li>
+              <i class="fa-li fa fa-money text-warning"></i>
+                <div class="wallet-id">xrp: </div>
+                <div class="wallet-address">rPVMhWBsfF9iMXYj3aAzJVkPDTFNSyWdKy</div>
+                <div class="wallet-memo">tag: 757444963</div>
+            </li>
+            <li>
+              <i class="fa-li fa fa-money text-warning"></i>
+                <div class="wallet-id">xlm: </div>
+                <div class="wallet-address">GB6YPGW5JFMMP2QB2USQ33EUWTXVL4ZT5ITUNCY3YKVWOJPP57CANOF3</div>
+                <div class="wallet-memo">memo: 9e68efa954b844d1a4d</div>
+            </li>
+            <li>
+              <i class="fa-li fa fa-bitcoin text-warning"></i>
+                <div class="wallet-id">btc: </div>
+                <div class="wallet-address">17ER8MgBtuY9iBEhHWKs2Spg114w9KoJEb</div>
+            </li>
+            <li>
+              <i class="fa-li fa fa-bitcoin text-warning"></i>
+                <div class="wallet-id">bch: </div>
+                <div class="wallet-address">13Lr8zNvska1SaqMhDjejZXMetwD9SnV3B</div>
+            </li>
+            <li>
+              <i class="fa-li fa fa-money text-warning"></i>
+                <div class="wallet-id">xvg: </div>
+                <div class="wallet-address">DR4Z8H4msgajKFNUYKZtEaWKgTwrZRUauQ</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{% static 'assets/js/resume.js' %}"></script>
+
+  </body>
+
+</html>
