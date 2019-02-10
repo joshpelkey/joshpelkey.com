@@ -1,0 +1,159 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Anna Gray's 529</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'ag/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="{% static 'ag/vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Plugin CSS -->
+  <link href="{% static 'ag/vendor/magnific-popup/magnific-popup.css' %}" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'ag/css/freelancer.min.css' %}" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">AG 529</a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Contribute</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead bg-primary text-white text-center">
+    <div class="container">
+      <img class="img-fluid mb-5 d-block mx-auto" src="{% static 'ag/img/ag_college_tam.png' %}" alt="">
+      <h1 class="text-uppercase mb-0">Anna Gray</h1>
+      <hr class="star-light">
+      <h2 class="font-weight-light mb-0">Thank you for considering a donation to Anna's 529 College Savings Fund!</h2>
+      <p>(A donation of just $25 will grow and could easily be worth over $100 by the time Anna goes to college!)</p>
+    </div>
+  </header>
+
+  <!-- Portfolio Grid Section -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary mb-0">Contribute</h2>
+      <hr class="star-dark mb-5">
+    </div>
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+            <p class="lead">You can contribute online below. Please enter occassion code
+            <mark>SCUjPwaF</mark> when prompted. To donate online, you have to enter
+            bank account routing/account number.</p>
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-dark"
+            href="https://futurescholar.ebilling.com" target="_blank">
+          <i class="fas fa-money-check mr-2"></i>
+         Donate Online
+        </a>
+      </div>
+        </div>
+        <div class="col-lg-4 mr-auto">
+            <p class="lead">If you are not comfortable donating online, you can
+            download the pdf below for instructions to mail a contribution by
+            check. The instructions for mail are towards the bottom.</p>
+      <div class="text-center mt-4">
+          <a class="btn btn-xl btn-outline-dark" href="{% static 'ag/pdf/AG_FutureScholar529_GeneralContribution.pdf' %}" target="_blank">
+          <i class="fas fa-download mr-2"></i>
+          Download PDF
+        </a>
+      </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="bg-primary text-white mb-0" id="about">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-white">About</h2>
+      <hr class="star-light mb-5">
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+            <p class="lead">A 529 plan is a tax-advantaged savings plan designed
+            to encourage saving for future education costs. Anna is enrolled in
+            South Carolina's <a href="https://futurescholar.com/" target="_blank" style="color: #fff;">
+                <u>Future Scholar</u></a>
+            program and is invested through an
+            <a href="https://futurescholar.com/investments/Detail/36115W105/ages-0-3"
+                target="_blank" style="color: #fff;">
+                <u>age-based growth portfolio</u>
+            </a>
+            </p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">
+          If you'd like to leave Anna a note after contributing, you can fill
+          out a form with the "Leave a Note!" button below. Thank you!
+          </p>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-light"
+            href="https://goo.gl/forms/TWcKupZ50rRdvTKQ2" target="_blank">
+          <i class="fas fa-sticky-note mr-2"></i>
+         Leave a Note!
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright &copy; Anna Gray Inc 2018</small>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'ag/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'ag/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{% static 'ag/vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{% static 'ag/js/freelancer.min.js' %}"></script>
+
+</body>
+
+</html>

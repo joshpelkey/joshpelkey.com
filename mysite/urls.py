@@ -14,8 +14,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url
-from mysite.views import welcome
+from mysite.views import welcome, anna_gray_college
 
 urlpatterns = [
 	url(r'^$', welcome),
+	url(r'^529/$', anna_gray_college),
 ]
