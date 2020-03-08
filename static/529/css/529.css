@@ -1,0 +1,12 @@
+/*!
+ * Custom css for 529
+ */
+
+.filler--bordered {
+  border: 5px solid lightgrey;
+  padding: 5px;
+}
+
+.filler--bordered:hover {
+  border: 5px solid #2c3e50;
+}
