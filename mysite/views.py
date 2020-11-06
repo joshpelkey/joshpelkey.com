@@ -5,6 +5,10 @@ def welcome(request):
 
 	return render(request, 'welcome.html')
 
+def clara_one(request):
+
+	return render(request, 'clara1.html')
+
 def eighteen_playlist(request):
 
 	return render(request, '18playlist.html')
