@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url
-from mysite.views import welcome, clara_one, eighteen_playlist, welcome_college, anna_gray_college, clara_jayne_college
+from mysite.views import welcome, anna_three, clara_one, eighteen_playlist, welcome_college, anna_gray_college, clara_jayne_college
 
 urlpatterns = [
 	url(r'^$', welcome),
@@ -23,4 +23,5 @@ urlpatterns = [
 	url(r'^529/clara$', clara_jayne_college),
 	url(r'^18playlist$', eighteen_playlist),
 	url(r'^clara1$', clara_one),
+	url(r'^anna3$', anna_three),
 ]

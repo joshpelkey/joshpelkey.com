@@ -5,6 +5,10 @@ def welcome(request):
 
 	return render(request, 'welcome.html')
 
+def anna_three(request):
+
+	return render(request, 'anna3.html')
+
 def clara_one(request):
 
 	return render(request, 'clara1.html')
